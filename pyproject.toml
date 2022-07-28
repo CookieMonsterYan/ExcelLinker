@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "excel_linker"
+version = "0.0.1"
+authors = [
+  { name="frozencookie", email="cookie.monster.yan@hotmail.com" },
+]
+description = "Excel Linker is used to link excel sheets together."
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/CookieMonsterYan/ExcelLinker"
+"Bug Tracker" = "https://github.com/CookieMonsterYan/ExcelLinker/issues"
